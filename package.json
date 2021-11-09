@@ -1,0 +1,20 @@
+{
+  "name": "winston-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "morgan": "1.10.0",
+    "path": "0.12.7",
+    "winston": "3.3.3",
+    "winston-daily-rotate-file": "4.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
